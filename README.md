@@ -1,3 +1,51 @@
+# 📋 Comments Dashboard
+
+A responsive React-based dashboard that displays and manages comments using data from a public API. It supports searching, sorting, pagination, and responsive layout (mobile-friendly without horizontal scroll).
+
+## 🚀 Features
+
+- 🔎 **Search** by name, email, or comment content
+- 🔃 **Sort** comments by Post ID, Name, or Email (ascending/descending)
+- 📄 **Pagination** with customizable items per page (10 / 50 / 100)
+- 💾 **Persistent state** using `localStorage` for search term, pagination, sort
+- 📱 **Responsive layout** optimized for both desktop and mobile
+- 🧹 Clean UI with intuitive controls
+
+## 🖥️ Tech Stack
+
+- React (with Hooks)
+- CSS (custom styling)
+- `fetch` API (to get data from `jsonplaceholder.typicode.com`)
+
+## 📦 API Source
+
+Comments data is fetched from:  
+[https://jsonplaceholder.typicode.com/comments](https://jsonplaceholder.typicode.com/comments)
+
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/comments-dashboard.git
+cd comments-dashboard
+cd myapp
+
+2. Install dependencies
+
+npm install
+3. Start the development server
+
+npm start
+The app will run on: http://localhost:3000
+
+
+📬 Contact
+Developer: Daveed Gangi
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,74 @@
+
+.back-to-dashboard-link{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: larger;
+    color:darkblue;
+}
+.user-profile-bg{
+    margin:33px;
+}
+
+.user-profile-data{
+    margin-top:100px;
+ 
+}
+.user-card{
+      border:1px solid gainsboro;
+      margin-top: 33px;
+      padding:33px;
+      border-radius: 5px;
+}
+.user-round-name-profile{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: aqua;
+    color:darkorchid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-weight: 600;
+    margin-right:12px;
+}
+.users-name{
+    color:rgb(117, 64, 117);
+    font-size: 19px;
+    display: inline-block;
+    font-weight: 600;
+}
+.users-email{
+    color:thistle;
+    padding-top: 5px;
+    display: inline-block;
+}
+.users-names{
+    display: flex;
+    align-items: center;
+}
+.user-details{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top:24px;
+    color:rgb(109, 109, 138);
+    font-weight: 500;
+    flex-wrap: wrap;
+    
+    
+}
+.data{
+    color:rgb(0, 86, 139);
+    padding-top: 15px;
+}
+.phone{
+    margin-top:24px;
+    color:rgb(109, 109, 138);
+    font-weight: 500;
+}
+.each{
+    width:200px;
+    padding-top:14px;
+}

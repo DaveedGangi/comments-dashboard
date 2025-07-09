@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.user-round-name{
+    display: inline-block;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background-color:white;
+    color:burlywood;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.user-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar{
+    background-color:rgb(33, 33, 86);
+    height:66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 33px;
+    padding-right: 33px;
+    color:aliceblue;
+    position:fixed;
+    width:100%;
+    top:0;
+
+}
